@@ -1,0 +1,45 @@
+body {
+    background-color: #a7f9f3;
+    
+}
+
+#flagImage {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px; 
+    margin: 5px; 
+    transition: all 0.3s;
+    
+    
+}
+
+button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.timer {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin: 20px 0; /* Margem acima e abaixo */
+    color: #ff0000; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+}
+
+.difficulty-selection {
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Margem acima e abaixo */
+}
+
+.difficulty-btn {
+    margin: 5px; /* Espaçamento entre os botões */
+    padding: 10px 20px; /* Espaço interno dos botões */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+
